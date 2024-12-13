@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane
+    xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="com.example.learnjavafx.CourseController"
+>
+    <VBox
+        alignment="CENTER"
+        spacing="5"
+        style="-fx-background-color: #f5f5f5; -fx-border-color: #6200EE; -fx-border-radius: 5; -fx-padding: 10;"
+        prefHeight="150"
+        prefWidth="200"
+    >
+        <Label
+            fx:id="courseNameLabel"
+            text="C++" style="-fx-font-size: 16px; -fx-font-weight: bold;"
+        />
+        <Label
+            fx:id="courseDescriptionLabel"
+            text="Description of Course 1"
+            style="-fx-font-size: 12px;"
+        />
+        <Button
+            text="View Details"
+            style="-fx-background-color: #6200EE; -fx-text-fill: white; -fx-border-radius: 5;"
+            onAction="#onViewDetailsButtonClick"
+        />
+    </VBox>
+
+</AnchorPane>

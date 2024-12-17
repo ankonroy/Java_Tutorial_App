@@ -59,7 +59,7 @@
             />
             <Label
                 fx:id="usernameLabel"
-                text="Username: johndoe"
+                text="Username: myusername"
                 style="-fx-font-size: 16px;"
             />
             <VBox spacing="5">
